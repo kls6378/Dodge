@@ -22,6 +22,12 @@
     <Filter Include="GameClass\Sound">
       <UniqueIdentifier>{71d8a687-e3fc-4c23-8fbf-a8803b586789}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Components\Font">
+      <UniqueIdentifier>{99e34364-e973-4805-bf57-e7fb66f6ff60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{90461d01-dba3-4db5-8bf0-c196cbec7056}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D2DApp.cpp">
@@ -36,7 +42,6 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>GameClass</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="Transform.cpp">
       <Filter>Components</Filter>
     </ClCompile>
@@ -92,6 +97,19 @@
       <Filter>Manager</Filter>
     </ClCompile>
     <ClCompile Include="TestScene2.cpp" />
+    <ClCompile Include="Font.cpp">
+      <Filter>Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FontRenderer.cpp">
+      <Filter>Components\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFontObject.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WinApp.h">
@@ -167,6 +185,18 @@
       <Filter>Manager</Filter>
     </ClInclude>
     <ClInclude Include="TestScene2.h" />
+    <ClInclude Include="Font.h">
+      <Filter>Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontRenderer.h">
+      <Filter>Components\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFontObject.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>main</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Math.inl">

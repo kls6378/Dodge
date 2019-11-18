@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "GameScene.h"
 #include "Player.h"
+#include "MainFontObject.h"
 
 void GameScene::Initialize()
 {
@@ -9,4 +10,6 @@ void GameScene::Initialize()
 
 	player = (Player*)PushBackGameObject(new Player());			//오브젝트를 생성하고 싶다면, PushBackGameObject함수를 호출하여 생성합니다.
 	player->enemy = t;
+
+	PushBackGameObject(new MainFontObject());
 }
