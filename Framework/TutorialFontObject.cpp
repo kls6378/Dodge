@@ -4,11 +4,11 @@
 TutorialFontObject::TutorialFontObject()
 	:GameObject(fontRenderer = new FontRenderer()), str(L"튜토리얼 화면임!")
 {
-	font = new Font(L"arial");
+	font = new Font(L"arial", 100.0f, 1.0f, 1.0f, 1.0f, 1.0f, true);
 	fontRenderer->font = this->font;
 	fontRenderer->text = str;
 	transform->SetPosition(300.0f, 100.0f);
-	transform->SetScale(2.0f, 2.0f);
+	transform->SetScale(1.0f, 1.0f);
 }
 
 TutorialFontObject::~TutorialFontObject()

@@ -7,6 +7,7 @@ class MainScene :
 {
 public:
 	virtual void Initialize();
-	void Update() override;
+	void Update();
+	GameObject* background;
 };
 

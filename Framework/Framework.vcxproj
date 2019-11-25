@@ -134,6 +134,9 @@
     <ClCompile Include="Collision.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="D2DApp.cpp" />
+    <ClCompile Include="Enemy1.cpp" />
+    <ClCompile Include="Enemy2.cpp" />
+    <ClCompile Include="Enemy3.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="FontRenderer.cpp" />
     <ClCompile Include="Framework.cpp" />
@@ -151,8 +154,6 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SheetAnimation.cpp" />
     <ClCompile Include="SoundEvent.cpp" />
-    <ClCompile Include="TestObject.cpp" />
-    <ClCompile Include="TestScene2.cpp" />
     <ClCompile Include="TimeManager.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="TutorialFontObject.cpp" />
@@ -169,6 +170,9 @@
     <ClInclude Include="Collision.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="D2DApp.h" />
+    <ClInclude Include="Enemy1.h" />
+    <ClInclude Include="Enemy2.h" />
+    <ClInclude Include="Enemy3.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="FontRenderer.h" />
     <ClInclude Include="Framework.h" />
@@ -187,8 +191,6 @@
     <ClInclude Include="SheetAnimation.h" />
     <ClInclude Include="SoundEvent.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="TestObject.h" />
-    <ClInclude Include="TestScene2.h" />
     <ClInclude Include="TimeManager.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="TutorialFontObject.h" />

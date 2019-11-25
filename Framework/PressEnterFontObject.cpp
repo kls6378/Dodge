@@ -4,10 +4,10 @@
 PressEnterFontObject::PressEnterFontObject()
 	:GameObject(fontRenderer = new FontRenderer()), str(L"Press Enter...")
 {
-	font = new Font(L"arial");
+	font = new Font(L"arial", 50.0f, 1.0f, 1.0f, 1.0f, 1.0f, false);
 	fontRenderer->font = this->font;
 	fontRenderer->text = str;
-	transform->SetPosition(300.0f, 350.0f);
+	transform->SetPosition(500.0f, 600.0f);
 	transform->SetScale(1.0f, 1.0f);
 }
 

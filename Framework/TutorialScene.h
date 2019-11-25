@@ -6,5 +6,7 @@ class TutorialScene :
 	public Scene
 {
 	virtual void Initialize();
+	void Update();
+	GameObject* background;
 };
 
