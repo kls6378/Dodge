@@ -28,6 +28,9 @@
     <Filter Include="main">
       <UniqueIdentifier>{90461d01-dba3-4db5-8bf0-c196cbec7056}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tutorial">
+      <UniqueIdentifier>{eb6da6cf-3f86-4df6-addb-dbdcd9047955}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D2DApp.cpp">
@@ -110,6 +113,13 @@
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PressEnterFontObject.cpp" />
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialFontObject.cpp">
+      <Filter>Tutorial</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WinApp.h">
@@ -196,6 +206,13 @@
     </ClInclude>
     <ClInclude Include="MainScene.h">
       <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="PressEnterFontObject.h" />
+    <ClInclude Include="TutorialScene.h">
+      <Filter>Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialFontObject.h">
+      <Filter>Tutorial</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

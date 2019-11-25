@@ -7,6 +7,6 @@
 int main()
 {
 	Framework& f = Framework::GetInstance();
-	f.Run(new MainScene(),L"Dodge!!", 1280, 720, false);
+	f.Run(new MainScene(),L"Dodge!!", 640, 415, false);
 	return 0;
 }

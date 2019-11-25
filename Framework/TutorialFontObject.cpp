@@ -1,8 +1,8 @@
 #include "stdafx.h"
-#include "MainFontObject.h"
+#include "TutorialFontObject.h"
 
-MainFontObject::MainFontObject()
-	:GameObject(fontRenderer = new FontRenderer()), str(L"Dodge!!")
+TutorialFontObject::TutorialFontObject()
+	:GameObject(fontRenderer = new FontRenderer()), str(L"튜토리얼 화면임!")
 {
 	font = new Font(L"arial");
 	fontRenderer->font = this->font;
@@ -11,7 +11,7 @@ MainFontObject::MainFontObject()
 	transform->SetScale(2.0f, 2.0f);
 }
 
-MainFontObject::~MainFontObject()
+TutorialFontObject::~TutorialFontObject()
 {
 	SAFE_DELETE(font);
 }

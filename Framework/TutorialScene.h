@@ -2,11 +2,9 @@
 #include "Scene.h"
 #include "GameObject.h"
 
-class MainScene :
+class TutorialScene :
 	public Scene
 {
-public:
 	virtual void Initialize();
-	void Update() override;
 };
 
