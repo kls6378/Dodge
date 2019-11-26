@@ -2,18 +2,31 @@
 #include "Renderer.h"
 
 Renderer::Renderer()
-	: Component(), currentSprite(nullptr), alpha(1.0f), initialized(false)
+	: Component(), currentSprite(nullptr), alpha(1.0f), initialized(false), width(0), height(0)
 {
 }
 
 Renderer::Renderer(Sprite* startSprite, float alpha)
 	: Component(), currentSprite(startSprite), alpha(alpha), initialized(true)
 {
+	D2D1_SIZE_U size = startSprite->bitmap->GetPixelSize();
+	width = size.width;
+	height = size.height;
 }
 
 bool Renderer::GetInitialized()
 {
 	return initialized;
+}
+
+int Renderer::GetWidth()
+{
+	return width;
+}
+
+int Renderer::GetHeight()
+{
+	return height;
 }
 
 Sprite& Renderer::GetSprite()

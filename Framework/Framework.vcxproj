@@ -49,7 +49,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -129,24 +129,28 @@
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimationRenderer.cpp" />
     <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
     <ClCompile Include="CircleCollider.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Collision.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="D2DApp.cpp" />
-    <ClCompile Include="Enemy1.cpp" />
-    <ClCompile Include="Enemy2.cpp" />
-    <ClCompile Include="Enemy3.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="FontRenderer.cpp" />
     <ClCompile Include="Framework.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameOverFont.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="ListAnimation.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainFontObject.cpp" />
     <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PressEnterFontObject.cpp" />
     <ClCompile Include="Renderer.cpp" />
@@ -165,24 +169,28 @@
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AnimationRenderer.h" />
     <ClInclude Include="Audio.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletManager.h" />
     <ClInclude Include="CircleCollider.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Collision.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="D2DApp.h" />
-    <ClInclude Include="Enemy1.h" />
-    <ClInclude Include="Enemy2.h" />
-    <ClInclude Include="Enemy3.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyManager.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="FontRenderer.h" />
     <ClInclude Include="Framework.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameOverFont.h" />
+    <ClInclude Include="GameOverScene.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="ListAnimation.h" />
     <ClInclude Include="MainFontObject.h" />
     <ClInclude Include="MainScene.h" />
     <ClInclude Include="Math.h" />
+    <ClInclude Include="PhysicsManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PressEnterFontObject.h" />
     <ClInclude Include="Renderer.h" />

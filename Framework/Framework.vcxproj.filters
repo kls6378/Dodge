@@ -46,6 +46,12 @@
     <Filter Include="public">
       <UniqueIdentifier>{b044765b-4add-42d7-9159-06bba37dc282}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Physics">
+      <UniqueIdentifier>{2397a937-deb1-46c6-9ce7-2a8711ad7099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameOver">
+      <UniqueIdentifier>{bb96e4db-6b09-42d0-9b3b-7a005930f612}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D2DApp.cpp">
@@ -133,20 +139,32 @@
     <ClCompile Include="GameScene.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="Enemy1.cpp">
-      <Filter>Game\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy2.cpp">
-      <Filter>Game\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy3.cpp">
-      <Filter>Game\Enemy</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Game\player</Filter>
     </ClCompile>
     <ClCompile Include="PressEnterFontObject.cpp">
       <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Game\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverFont.cpp">
+      <Filter>GameOver</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -240,20 +258,32 @@
     <ClInclude Include="GameScene.h">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="Enemy1.h">
-      <Filter>Game\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy2.h">
-      <Filter>Game\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy3.h">
-      <Filter>Game\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Game\player</Filter>
     </ClInclude>
     <ClInclude Include="PressEnterFontObject.h">
       <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Game\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverFont.h">
+      <Filter>GameOver</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
